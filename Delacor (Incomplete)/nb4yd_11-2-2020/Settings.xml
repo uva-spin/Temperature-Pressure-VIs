@@ -1,0 +1,26 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>4</NumElts>
+<DBL>
+<Name>Max Value [V]</Name>
+<Val>5.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>Min Value [V]</Name>
+<Val>-5.00000000000000</Val>
+</DBL>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\Brenn\Desktop\Logged Files\Test.tdms</Val>
+</Path>
+<Refnum>
+<Name>Analog Input Channel</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>ULxIORefnumTag</RefType>
+<Val></Val>
+</Refnum>
+</Cluster>
+</LVData>
