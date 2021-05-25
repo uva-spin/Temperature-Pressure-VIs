@@ -1,0 +1,22 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>3</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\Josh\Desktop\Logged Files\Test.tdms</Val>
+</Path>
+<Refnum>
+<Name>Analog Input Channel</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>ULxIORefnumTag</RefType>
+<Val>Dev0/Ti0</Val>
+</Refnum>
+<I32>
+<Name>Units</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+</LVData>
