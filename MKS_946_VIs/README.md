@@ -39,6 +39,16 @@ Two of MKS 722B are planned to be connected, as of August 2021.
 
 These are thought to be not important, because the system control can be made on the front panel when needed and the mass flow and pressure controllers won't be connected.
 
+## Interface Functions
+
+| Function | VI File | Tested? |
+| -------- | ------- | ------- |
+| Single command test        | Each VI           | No |
+| Device configuration       | n/a               | No |
+| Single device readout      | mks946_get_all.vi | No |
+| Continuous device readout  | n/a               | No |
+| Continuous readout logging | n/a               | No |
+
 ## Other Info
 
 This folder was first created from the template, `flow_c.zip`, by Kenichi in June 2021.
