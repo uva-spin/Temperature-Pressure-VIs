@@ -3,7 +3,7 @@
 ## Device Info
 
 * Specifications:  https://www.mksinst.com/f/946-vacuum-system-controller
-* Manual:  https://www.lesker.com/NewWeb/Process_Instruments/pdf/Manuals/KJLC-MKS_946_Contro
+* Manual:  https://www.lesker.com/NewWeb/Process_Instruments/pdf/Manuals/KJLC-MKS_946_Controller-Manual.pdf
 
 ## Sensors
 
@@ -44,10 +44,10 @@ These are thought to be not important, because the system control can be made on
 | Function | VI File | Tested? |
 | -------- | ------- | ------- |
 | Single command test        | Each VI           | No |
-| Device configuration       | n/a               | No |
-| Single device readout      | mks946_get_all.vi | No |
-| Continuous device readout  | n/a               | No |
-| Continuous readout logging | n/a               | No |
+| Device configuration       | t.b.w.            | No |
+| Single device readout      | mks946_get_all.vi | Yes |
+| Continuous device readout  | mks946_acquire.vi | Yes w/o hardware |
+| Continuous readout logging | t.b.w.            | No |
 
 ## Other Info
 
