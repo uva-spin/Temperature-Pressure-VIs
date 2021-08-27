@@ -24,10 +24,10 @@ This folder is for all of the working VIs you have been working on. Please name 
 
 | Device        | Type     | Gender | Wiring      | Screw | COM | IP4 |
 | ------------- | -------- | ------ | ----------- | ----- | --- | --- |
-| MKS 670       | Serial   | Male   | Straight    | Yes   |     |     |
+| MKS 670       | Serial   | Male   | Straight    | Yes   | 13  |     |
 | AMI 17000     | Serial   | Female | Straight(?) |       |     |     |
 | THCD-400      | Serial   | Female | Straight(?) |       |     |     |
 | DCU 600       | Ethernet | n/a    | n/a         |       |     |     |
 | TPG-361       | Ethernet | n/a    | n/a         |       |     |     |
 | LakeShore 218 | Serial   | Male   | Cross(?)    |       |     |     |
-| MKS 946       | Serial   | Female | Straight    |       |     |     |
+| MKS 946       | Serial   | Female | Straight    | Yes   | 13  |     |

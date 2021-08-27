@@ -6,6 +6,7 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
 
 * MKS 946
     * Baud rate: 9600 19200, 38400, 57600, 115200
+    * Straight cable
     * Bits: 8 data, 1 stop, no parity
     * Command
         ```
@@ -15,6 +16,7 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
 
 * MKS 670
     * Baud rate: 300, 1200, 2400, 4800, 9600
+    * Straight cable
     * Bits: 8 data, 1 stop, no parity
     * Command
         ```
