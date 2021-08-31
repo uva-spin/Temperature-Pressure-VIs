@@ -1,24 +1,17 @@
 # uva-spin/Temperature-Pressure-VIs
 
-## Delacor_Incomplete
+## LabVIEW Version
 
-This folder is for any VIs that have been added to a CML QMH, but are not currently working. Please upload them here and have a few lines explaining what isn't working in the program.
+As of 2021-08-31.
+The version of LabVIEW on the target computer at NM4 is "2019", "19.0.1f3", 64 bit.
+Therefore you are recommended to *use version 2019 on your own computer* for development.
 
-## Delacor_Complete
+Only the latest version (2020 or 2021) is available when you install LabVIEW under the Evaluation license.
+But you can install version 2019 from the NI package manager, once you activate the UVA license.
 
-This folder is for any VIs that have been added to a CML QMH, and are currently working.
+You could use the function of "Save for Previous Versions" when saving VI file in the latest version.
+But it is not preferable since this function creates new VI file for the previous version and thus must be re-done every time.
 
-## Keithley VIs
-
-This folder is for VIs pertaining to Efrain's hardware.
-
-## Lakeshore VIs
-
-This folder is for VI's pertaining to Reginald's hardware.
-
-## Test Kit VIs
-
-This folder is for all of the working VIs you have been working on. Please name the files in the format "COMPUTING ID_date" to help keep track of who's working on what.
 
 ## Device Communication Interface
 
