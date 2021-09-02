@@ -19,7 +19,7 @@ But it is not preferable since this function creates new VI file for the previou
 | ------------- | -------- | ------ | ----------- | ----- | --- | --- |
 | MKS 670       | Serial   | Male   | Straight    | Yes   | 13  |     |
 | AMI 17000     | Serial   | Female | Straight(?) |       |     |     |
-| THCD-400      | Serial   | Female | Straight(?) |       |     |     |
+| THCD-400      | Serial   | Female | Straight    |       | 13  |     |
 | DCU 600       | Ethernet | n/a    | n/a         |       |     |     |
 | TPG-361       | Ethernet | n/a    | n/a         |       |     |     |
 | LakeShore 218 | Serial   | Male   | Cross(?)    |       |     |     |

@@ -5,8 +5,8 @@
 Use `PuTTY` on the target computer to check if the Serial communication with each device is fine.
 
 * MKS 946
+    * Wiring: DCE, Straight cable
     * Baud rate: 9600 19200, 38400, 57600, 115200
-    * Straight cable
     * Bits: 8 data, 1 stop, no parity
     * Command
         ```
@@ -15,8 +15,8 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
         ```
 
 * MKS 670
+    * Wiring: DCE, Straight cable
     * Baud rate: 300, 1200, 2400, 4800, 9600
-    * Straight cable
     * Bits: 8 data, 1 stop, no parity
     * Command
         ```
@@ -24,10 +24,9 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
         ```
 
 * LakeShore 218
-    * GPIB according to ORC???
-    * Connector wiring: DTE -> Cross cable
+    * Wiring: DTE, Cross cable
     * Baud rate: 9600
-    * Bits: 1 start, 7 data, 1 parity (odd), 1 stop
+    * Bits: 7 data, 1 parity (odd), 1 stop
     * Command
         ```
         SRDG?[Enter]
@@ -36,18 +35,18 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
 
 * AMI 1700
     * http://www.americanmagnetics.com/support/manuals/Model1700_Rev5.pdf
-    * Connector wiring: DCE -> Straight cable
+    * Wiring: DCE, Straight cable
     * Baud rate: 115200
-    * Bits: 1 start, 8 data, 1 stop, no parity
+    * Bits: 8 data, 1 stop, no parity
     * Command
         ```
         *IDN?[Enter]
         ```
 
 * THCD-400
-    * Connector wiring: DCE(??) -> Straight cable(??)
-    * Baud rate: 9600, 19200
-    * Bits: 1 start, 8 data, 1 stop, no parity
+    * Wiring: DCE, Straight cable
+    * Baud rate: 9600
+    * Bits: 8 data, 1 stop, no parity
     * Command
         ```
         C1[Enter]
