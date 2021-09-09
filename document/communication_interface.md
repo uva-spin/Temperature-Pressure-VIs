@@ -4,37 +4,31 @@
 
 Use `PuTTY` on the target computer to check if the Serial communication with each device is fine.
 
+### Common PuTTY settings
+
+* Terminal: Local echo        : Force on
+* Terminal: Local line editing: Force on
+
 ### MKS 946
 
 * Wiring: DCE, Straight cable
 * Baud rate: 9600 19200, 38400, 57600, 115200
 * Bits: 8 data, 1 stop, no parity
-* Command
-    ```
-    @254AD?;FF
-    @253PR1?;FF
-    ```
+* Test command: `@253PR1?;FF`
 
 ### MKS 670
 
 * Wiring: DCE, Straight cable
 * Baud rate: 300, 1200, 2400, 4800, 9600
 * Bits: 8 data, 1 stop, no parity
-* Command
-    ```
-    @020?[Enter]
-    ```
+* Test command: `@020?[Enter]`
 
 ### LakeShore 218
 
 * Wiring: DTE, Cross cable
 * Baud rate: 9600
 * Bits: 7 data, 1 parity (odd), 1 stop
-* Command
-    ```
-    SRDG?[Enter]
-    KRDG? 1[Enter]
-    ```
+* Test command: `SRDG? 0[Ctrl-M][Ctrl-J][Enter]`
 
 ### AMI 1700
 
@@ -42,7 +36,7 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
 * Wiring: DCE, Straight cable
 * Baud rate: 115200
 * Bits: 8 data, 1 stop, no parity
-* Command
+* Test command
     ```
     *IDN?[Enter]
     ```
@@ -52,10 +46,7 @@ Use `PuTTY` on the target computer to check if the Serial communication with eac
 * Wiring: DCE, Straight cable
 * Baud rate: 9600
 * Bits: 8 data, 1 stop, no parity
-* Command
-    ```
-    C1[Enter]
-    ```
+* Test command: `C1[Enter]`
 
 ### Pfeiffer DCU 600
 
