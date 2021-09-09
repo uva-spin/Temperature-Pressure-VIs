@@ -17,10 +17,10 @@ But it is not preferable since this function creates new VI file for the previou
 
 | Device        | Type     | Gender | Wiring      | Screw | COM | IP4 |
 | ------------- | -------- | ------ | ----------- | ----- | --- | --- |
-| MKS 670       | Serial   | Male   | Straight    | Yes   |     |     |
+| MKS 670       | Serial   | Male   | Straight    | Yes   |  5  |     |
 | AMI 17000     | Serial   | Female | Straight(?) |       | 16  |     |
 | THCD-400      | Serial   | Female | Straight    |       | 13  |     |
 | DCU 600       | Ethernet | n/a    | n/a         |       |     |     |
 | TPG-361       | Ethernet | n/a    | n/a         |       |     |     |
 | LakeShore 218 | Serial   | Male   | Cross(?)    |       | 15  |     |
-| MKS 946       | Serial   | Female | Straight    | Yes   |     |     |
+| MKS 946       | Serial   | Female | Straight    | Yes   | 14  |     |
