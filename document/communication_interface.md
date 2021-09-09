@@ -4,59 +4,66 @@
 
 Use `PuTTY` on the target computer to check if the Serial communication with each device is fine.
 
-* MKS 946
-    * Wiring: DCE, Straight cable
-    * Baud rate: 9600 19200, 38400, 57600, 115200
-    * Bits: 8 data, 1 stop, no parity
-    * Command
-        ```
-        @254AD?;FF
-        @253PR1?;FF
-        ```
+### MKS 946
 
-* MKS 670
-    * Wiring: DCE, Straight cable
-    * Baud rate: 300, 1200, 2400, 4800, 9600
-    * Bits: 8 data, 1 stop, no parity
-    * Command
-        ```
-        @020?[Enter]
-        ```
+* Wiring: DCE, Straight cable
+* Baud rate: 9600 19200, 38400, 57600, 115200
+* Bits: 8 data, 1 stop, no parity
+* Command
+    ```
+    @254AD?;FF
+    @253PR1?;FF
+    ```
 
-* LakeShore 218
-    * Wiring: DTE, Cross cable
-    * Baud rate: 9600
-    * Bits: 7 data, 1 parity (odd), 1 stop
-    * Command
-        ```
-        SRDG?[Enter]
-	KRDG? 1[Enter]
-        ```
+### MKS 670
 
-* AMI 1700
-    * http://www.americanmagnetics.com/support/manuals/Model1700_Rev5.pdf
-    * Wiring: DCE, Straight cable
-    * Baud rate: 115200
-    * Bits: 8 data, 1 stop, no parity
-    * Command
-        ```
-        *IDN?[Enter]
-        ```
+* Wiring: DCE, Straight cable
+* Baud rate: 300, 1200, 2400, 4800, 9600
+* Bits: 8 data, 1 stop, no parity
+* Command
+    ```
+    @020?[Enter]
+    ```
 
-* THCD-400
-    * Wiring: DCE, Straight cable
-    * Baud rate: 9600
-    * Bits: 8 data, 1 stop, no parity
-    * Command
-        ```
-        C1[Enter]
-        ```
+### LakeShore 218
 
-* Pfeiffer DCU 600
-    * Ethernet
+* Wiring: DTE, Cross cable
+* Baud rate: 9600
+* Bits: 7 data, 1 parity (odd), 1 stop
+* Command
+    ```
+    SRDG?[Enter]
+    KRDG? 1[Enter]
+    ```
 
-* TPG-361
-    * Ethernet (or USB according to ORC?)
+### AMI 1700
+
+* http://www.americanmagnetics.com/support/manuals/Model1700_Rev5.pdf
+* Wiring: DCE, Straight cable
+* Baud rate: 115200
+* Bits: 8 data, 1 stop, no parity
+* Command
+    ```
+    *IDN?[Enter]
+    ```
+
+### THCD-400
+
+* Wiring: DCE, Straight cable
+* Baud rate: 9600
+* Bits: 8 data, 1 stop, no parity
+* Command
+    ```
+    C1[Enter]
+    ```
+
+### Pfeiffer DCU 600
+
+* Ethernet
+
+### TPG-361
+
+* Ethernet (or USB according to ORC?)
 
 
 ## Interface converter
