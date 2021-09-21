@@ -1,0 +1,9 @@
+This is the second version for the TPG361. Use this version instead of the previous one
+Sensor: PKR361. This is the red-pressure sensor that currently used for the leak checker (I think). This will be installed for the outer vacuum monitor near the Turbo
+Read out: TPG361 in the slow control rack
+Connection from the TPG361 -> USB cable to the USB hub
+
+This VI is "incomplete delacor":
+1. Use global constant instead of helper loop or text file as input
+2. Running with the main VI instead of tester as best practice in the delacor framework
+3. Not yet stream out the data (will do soon)
