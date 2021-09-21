@@ -29,5 +29,7 @@ But it is not preferable since this function creates new VI file for the previou
 The communication with LakeShore 218 was tested via Serial in September 2021.
 But we plan to use GPIB for it.
 
-| LakeShore 218 | Serial   | Male   | Cross       | 15  |     |
-| LakeShore 218	| Serial   | Male   | Cross       | 11  |     |
+| Device        | Type     | Gender | Wiring      | COM |
+| ------------- | -------- | ------ | ----------- | --- |
+| LakeShore 218 | Serial   | Male   | Cross       | 15  |
+| LakeShore 218	| Serial   | Male   | Cross       | 11  |
