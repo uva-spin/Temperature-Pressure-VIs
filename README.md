@@ -21,7 +21,7 @@ But it is not preferable since this function creates new VI file for the previou
 | AMI 1700      | Serial   | Female | Straight(?) | 16  |     |
 | THCD-400      | Serial   | Female | Straight    | 13  |     |
 | DCU 600       | Ethernet | n/a    | n/a         |     |     |
-| TPG-361       | Ethernet | n/a    | n/a         |     |     |
+| TPG-361       | USB      | n/a    | n/a         |     |     |
 | LakeShore 218 | Serial   | Male   | Cross       | 15  |     |
 | LakeShore 218	|          |        |             | 11  |     |
 | MKS 946       | Serial   | Female | Straight    | 14  |     |
