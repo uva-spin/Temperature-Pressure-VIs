@@ -1,0 +1,18 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>19.0.1f4</Version>
+<Cluster>
+<Name>Settings</Name>
+<NumElts>2</NumElts>
+<Path>
+<Name>Log File Base Path</Name>
+<Val>C:\Users\g13\Desktop\Logged Files\Test.tdms</Val>
+</Path>
+<Refnum>
+<Name>Temperature Input Channel</Name>
+<RefKind>Generic Tag</RefKind>
+<RefType>ULxIORefnumTag</RefType>
+<Val>Dev0/Ti0</Val>
+</Refnum>
+</Cluster>
+</LVData>
