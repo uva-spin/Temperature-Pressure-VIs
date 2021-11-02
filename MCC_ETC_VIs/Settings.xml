@@ -12,7 +12,7 @@
 <Name>Temperature Input Channel</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>ULxIORefnumTag</RefType>
-<Val>Dev0/Ti0</Val>
+<Val>Dev0/Ti0:7</Val>
 </Refnum>
 </Cluster>
 </LVData>
