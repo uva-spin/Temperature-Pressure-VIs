@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="19008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -239,7 +239,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{D11DDA0E-CF68-4CF3-9E49-7FAB2331EAEE}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{B1DEB030-9EA2-4911-82E7-FBDAB2219C96}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_serverType" Type="Int">1</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C3A5E482-B4AE-41F6-9263-96B163C9C21E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CML</Property>
@@ -271,7 +270,7 @@
 				<Property Name="TgtF_companyName" Type="Str">Delacor</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CML</Property>
 				<Property Name="TgtF_internalName" Type="Str">CML</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Delacor</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright c 2019 Delacor</Property>
 				<Property Name="TgtF_productName" Type="Str">CML</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{5F896DD4-E3AF-4E6C-B723-CD0961BE88A6}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CML.exe</Property>

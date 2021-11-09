@@ -1,18 +1,18 @@
 <?xml version='1.0' standalone='yes' ?>
 <LVData xmlns="http://www.ni.com/LVData">
-<Version>20.0</Version>
+<Version>19.0.1f4</Version>
 <Cluster>
 <Name>Settings</Name>
 <NumElts>4</NumElts>
 <Path>
 <Name>Log File Base Path</Name>
-<Val>C:\Users\Josh\Desktop\research\ThermistorCML\output</Val>
+<Val>C:\Users\g13\Desktop\Logged Files\Test.tdms</Val>
 </Path>
 <Refnum>
 <Name>Analog Input Channel</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>ULxIORefnumTag</RefType>
-<Val>Dev0/Ai2</Val>
+<Val>Dev1/Ai0</Val>
 </Refnum>
 <DBL>
 <Name>Max Value</Name>
