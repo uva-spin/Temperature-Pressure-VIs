@@ -12,7 +12,7 @@
 <Name>Analog Input Channel</Name>
 <RefKind>Generic Tag</RefKind>
 <RefType>ULxIORefnumTag</RefType>
-<Val>Dev1/Ai0</Val>
+<Val>Dev1/Ai0:7</Val>
 </Refnum>
 <DBL>
 <Name>Max Value</Name>
