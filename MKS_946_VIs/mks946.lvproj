@@ -13,9 +13,7 @@
 		<Item Name="sub" Type="Folder" URL="../sub">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ctrl_mks946_res.ctl" Type="VI" URL="../ctrl_mks946_res.ctl"/>
 		<Item Name="mks946_acquire.vi" Type="VI" URL="../mks946_acquire.vi"/>
-		<Item Name="mks946_get_all.vi" Type="VI" URL="../mks946_get_all.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
